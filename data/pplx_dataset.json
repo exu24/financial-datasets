@@ -1,0 +1,68 @@
+[
+    {
+        "question": "What are the two limitations of most LLMs today as mentioned in the document titled 'Introducing PPLX Online LLMs'?",
+        "answer": "The two limitations of most LLMs today are freshness and hallucinations.",
+        "context": "LLMs have transformed the way we find information. However, there are two limitations with most LLMs today: Freshness: LLMs often struggle to share up-to-date information. Hallucinations: LLMs can also output inaccurate statements.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "How do the PPLX models address the current limitations of most LLMs, as described in the document 'Introducing PPLX Online LLMs'?",
+        "answer": "The PPLX models address the current limitations by providing helpful, factual, and up-to-date information in its responses.",
+        "context": "Our PPLX models build on top of mistral-7b and llama2-70b base models. In-house search technology: our in-house search, indexing, and crawling infrastructure allows us to augment LLMs with the most relevant, up to date, and valuable information.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "What is the advantage of online LLMs like pplx-7b-online and pplx-70b-online over offline models, according to the content in 'Introducing PPLX Online LLMs'?",
+        "answer": "Online LLMs can leverage knowledge from the internet and provide up-to-date information for time-sensitive queries.",
+        "context": "Our LLMs, pplx-7b-online and pplx-70b-online, are online LLMs because they can use knowledge from the internet, and thus can leverage the most up-to-date information when forming a response. By providing our LLMs with knowledge from the web, our models accurately respond to time-sensitive queries.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "How are the PPLX models fine-tuned to achieve high performance on various axes like helpfulness, factuality, and freshness as mentioned in the document 'Introducing PPLX Online LLMs'?",
+        "answer": "The PPLX models are fine-tuned by carefully curating high quality, diverse, and large training sets with the help of in-house data contractors to continually improve performance.",
+        "context": "Our PPLX models have been fine-tuned to effectively use snippets to inform their responses. Using our in-house data contractors, we carefully curate high quality, diverse, and large training sets in order to achieve high performance on various axes like helpfulness, factuality, and freshness.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "How were the Perplexity LLMs evaluated in terms of helpfulness, factuality, and freshness, as described in 'Introducing PPLX Online LLMs'?",
+        "answer": "The Perplexity LLMs were evaluated based on helpfulness, factuality, and freshness using curated evaluation datasets and criteria for selecting the best responses.",
+        "context": "To benchmark our LLMs\u2019 performance on these axes, we curated evaluation datasets to reflect challenging yet realistic use cases for answer engines. For each query in each evaluation set, contractors were given two model responses and instructed to select the response that performed better for the following criteria: Helpfulness, Factuality, Freshness.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "What is the primary focus of Perplexity's mission as mentioned in the text 'Introducing PPLX Online LLMs'?",
+        "answer": "Perplexity's mission is to build the world's best answer engine that provides helpful, factual, and up-to-date information for users.",
+        "context": "Perplexity\u2019s mission is to build the world\u2019s best answer engine - one that people trust to discover and expand their knowledge. To achieve this, we are deeply focused on providing helpful, factual, and up-to-date information.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "How were model responses evaluated holistically in the evaluation process described in the document 'Introducing PPLX Online LLMs'?",
+        "answer": "Model responses were evaluated holistically by asking evaluators to pick the response they would prefer to receive from a human assistant based on their overall judgment.",
+        "context": "In addition to the three criteria above, model responses were also evaluated holistically. To evaluate responses holistically, evaluators were asked to pick the response they would rather receive from a human assistant who is helping with the query.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "What is the purpose of curating a diverse set of prompts for evaluation, as stated in 'Introducing PPLX Online LLMs'?",
+        "answer": "The purpose of curating a diverse set of prompts is to effectively evaluate helpfulness, factuality, and freshness of the models and ensure high signal in model performance evaluations.",
+        "context": "For this evaluation, we carefully curated a diverse set of prompts with the goal of effectively evaluating helpfulness, factuality, and freshness. Each prompt was manually selected, ensuring a high level of control over the quality and relevance of the data. The dataset spans a wide range of answer engine prompts and encompasses a comprehensive overview of what we want Perplexity to excel at.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "How were Elo scores calculated for evaluating model performance in the document 'Introducing PPLX Online LLMs'?",
+        "answer": "Elo scores were calculated using the Bootstrap Elo methodology over 5000 permutations to measure the relative performance of the models on various axes.",
+        "context": "While Elo scores are typically calculated for a sequence of comparisons to account for changes in players\u2019 abilities, we aim to quantify the performance of models whose abilities cannot change. Accordingly, we adopt the Bootstrap Elo methodology described in Duan et al and also utilized by lmsys for their Chatbot Arena, which entails calculating Elo scores for many random permutations of the comparisons.",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "What are some of the models that were evaluated in the document 'Introducing PPLX Online LLMs' along with the PPLX models?",
+        "answer": "Some of the models evaluated include gpt-3.5-turbo-1106 from OpenAI and llama2-70b-chat from Meta AI, in addition to the PPLX models.",
+        "context": "We evaluated four models: pplx-7b-online: Perplexity\u2019s model, gpt-3.5-turbo-1106: OpenAI\u2019s model llama2-70b-chat: Meta AI\u2019s model",
+        "document_name": "pplx.pdf"
+    },
+    {
+        "question": "What significant transition is happening with the pplx-api as announced in 'Introducing PPLX Online LLMs'?",
+        "answer": "The pplx-api is transitioning out of beta into general public release, making the pplx-7b-online and pplx-70b-online models accessible via the pplx-api.",
+        "context": "We are thrilled to announce the pplx-api is phasing out of beta into general public release! This is the first time our pplx-7b-online and pplx-70b-online models are accessible via the pplx-api.",
+        "document_name": "pplx.pdf"
+    }
+]

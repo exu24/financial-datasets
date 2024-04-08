@@ -1,0 +1,146 @@
+[
+    {
+        "question": "What is Airbnb's commitment regarding climate change?",
+        "answer": "Airbnb announced a commitment to operating as a Net Zero company for its global corporate operations by 2030, including reducing greenhouse gas emissions and investing in nature-based solutions to offset residual emissions.",
+        "context": "Climate Change\nIn 2021, Airbnb announced our commitment to operating as a Net Zero company for our global corporate operations by 2030. To meet our goal, we have committed to a number of steps, including reducing greenhouse gas emissions associated with our corporate operations, and investing in quality nature-based solutions to offset residual emissions. This commitment is the latest step we are taking to help address the climate crisis.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What could cause a decrease in revenue according to the risk factors in the ABNB 2022 10-K document?",
+        "answer": "A softening of demand caused by events outside of control, challenging macroeconomic conditions, changes in preferences, or other factors described in the Annual Report.",
+        "context": "Our revenue growth rate has slowed over time, and we expect it to continue to slow in the future. We have experienced significant revenue growth in the past; however, our revenue growth rate has slowed over time and there is no assurance that historic growth rates will return. Our future revenue growth depends on the growth of supply and demand for listings on our platform, and our business is affected by general economic and business conditions worldwide as well as trends in the global travel and hospitality industries and the short and long-term accommodation regulatory landscape. In addition, we believe that our revenue growth depends upon a number of factors, including:\u2022global macroeconomic conditions, including inflation and rising interest rates and recessionary concerns;\u2022our ability to retain and grow the number of guests and Nights and Experiences Booked;\u2022our ability to retain and grow the number of Hosts and the number of available listings on our platform;\u2022events beyond our control such as pandemics and other health concerns, restrictions on travel and immigration, political, social or economic instability, including international disputes, war, or terrorism, trade disputes, economic downturns, and the impact of climate change on travel including the availability of preferred destinations and the increase in the frequency and severity of weather-related events, including fires, floods, droughts, extreme temperatures and ambient temperature increases, severe weather, and other natural disasters, and the impact of other climate change on seasonal destinations;\u2022competition;\u2022the legal and regulatory landscape and changes in the application of existing laws and regulations or adoption of new laws and regulations that impact our business, Hosts, and/or guests, including changes in short-term occupancy, tax laws, and real estate broker laws;\u2022the attractiveness of home sharing to prospective Hosts and guests;\u2022the level of consumer awareness and perception of our brand;\u2022our ability to build and strengthen trust and safety on our platform and among members of our community;\u2022the level of spending on brand and performance marketing to attract Hosts and guests to our platform;\u2022our ability to grow new offerings and tiers and to deepen our presence in certain geographies;\u2022timing, effectiveness, and costs of expansion and upgrades to our platform and infrastructure;\u2022the COVID-19 pandemic or any future pandemic or epidemic and its impact on the travel and accommodations industries; and\u2022other risks described elsewhere in this Annual Report on Form 10-K. A softening of demand, whether caused by events outside of our control, such as the ongoing COVID-19 pandemic, challenging macroeconomic conditions, changes in Host and guest preferences, any of the other factors described above, or in this Annual Report on Form 10-K or otherwise, may result in decreased revenue and our business, results of operations, and financial condition would be materially adversely affected.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What are some of the laws and regulations that Airbnb is subject to regarding its business practices, the Internet, e-commerce, and electronic devices?",
+        "answer": "Airbnb is subject to laws and regulations governing business practices, the Internet, e-commerce, and electronic devices, including taxation, data privacy, data security, pricing, content, advertising, discrimination, consumer protection, protection of minors, copyrights, distribution, messaging, mobile communications, electronic device certification, electronic waste, electronic contracts, communications, Internet access, competition, and unfair commercial practices.",
+        "context": "In addition to laws and regulations directly applicable to the short-term rental, long-term rental, and home sharing business as discussed in our risk factor titled \u201c\u2014 Laws, regulations, and rules that affect the short-term rental, long-term rental, and home sharing business have limited and may continue to limit the ability or willingness of Hosts to share their spaces over our platform and expose our Hosts or us to significant penalties, which could have a material adverse effect on our business, results of operations, and financial condition,\u201d we are subject to laws and regulations governing our business practices, the Internet, e-commerce, and electronic devices, including those relating to taxation, data privacy, data security, pricing, content, advertising, discrimination, consumer protection, protection of minors, copyrights, distribution, messaging, mobile communications, electronic device certification, electronic waste, electronic contracts, communications, Internet access, competition, and unfair commercial practices. We are also subject to laws and regulations governing the provision of online payment services and insurance services, the design and operation of our platform, and the operations, characteristics, and quality of our platform and services.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What are some examples of criminal or unsafe incidents that have occurred on properties booked on Airbnb's platform?",
+        "answer": "There have been shootings, fatalities, incidents of sexual violence, undisclosed and hidden cameras at properties, and incidents of criminal, fraudulent, or unsafe behavior on Airbnb's platform.",
+        "context": "If criminal, inappropriate, fraudulent, or other negative incidents continue to occur due to the conduct of Hosts, guests, or third parties, our ability to attract and retain Hosts and guests would be harmed, and our business, results of operations, and financial condition would be materially adversely affected. Such incidents have prompted, and may in the future prompt, stricter home sharing regulations or regulatory inquiries into our platform policies and business practices. In the United States and other countries, we have seen listings being used for parties in violation of Airbnb\u2019s policies which have in some cases resulted in neighborhood disruption or violence.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What type of insurance does the company procure to offset potential exposure related to stays and experiences and to comply with certain rental regulatory requirements?",
+        "answer": "Host Liability Insurance and Experiences Liability Insurance",
+        "context": "Host Liability Insurance and Experiences Liability Insurance  In order to offset our potential exposure related to stays and experiences and to comply with certain short-term and long-term rental regulatory requirements, we have procured Host Liability and Experiences Liability general liability insurance from third parties, which are subject to certain terms, conditions, and exclusions, for claims from guests and third parties for bodily injury or property damage arising from bookings of stays and experiences through our platform. We and our Hosts are insured parties, and landlords, homeowners, or condo- owners associations, and any other similar entities, are additional insured parties. However, these insurance programs may not provide coverage for certain types of claims, including those relating to contagious diseases such as COVID-19, and may be insufficient to fully cover costs of investigation, costs of defense, and payments or judgments arising from covered claims. In addition, extensive or costly claims could lead to premium increases or difficulty securing coverage, which may result in increased financial exposure and an inability to meet insurance regulatory requirements.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the purpose of Airbnb's wholly-owned captive insurance subsidiary?",
+        "answer": "Airbnb's wholly-owned captive insurance subsidiary is used to manage the financial exposure related to Host and Experiences liability insurance programs along with certain corporate insurance programs.",
+        "context": "We have a wholly-owned captive insurance subsidiary to manage the financial exposure related to our Host and Experiences liability insurance programs along with certain corporate insurance programs.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What regulations is Airbnb Payments subject to as a licensed money transmitter?",
+        "answer": "Airbnb Payments is subject to obligations and restrictions with respect to the handling and investment of customer funds, record keeping and reporting requirements, bonding requirements, and inspection by state regulatory agencies.",
+        "context": "...As a licensed money transmitter, Airbnb Payments is subject to obligations and restrictions with respect to the handling and investment of customer funds, record keeping and reporting requirements, bonding requirements, and inspection by state regulatory agencies...",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What potential factors could cause the market price of the Class A common stock to decline?",
+        "answer": "Various factors, including actual or anticipated fluctuations in revenue or operating metrics, changes in financial projections, failure to meet financial estimates, changes in securities analysts' coverage or estimates, major changes in management, market conditions, legal and regulatory landscape changes, events like war or incidents of terrorism, and sales or expected sales of Class A common stock.",
+        "context": "The market price of our Class A common stock has been, and may continue to be, volatile and could be subject to wide fluctuations in response to the risk factors described in this Annual Report on Form 10-K, and others beyond our control, including:  \u2022actual or anticipated fluctuations in our revenue or other operating metrics;  \u2022our actual or anticipated operating performance and the operating performance of our competitors;  \u2022changes in the financial projections we provide to the public or our failure to meet these projections;  \u2022failure of securities analysts to initiate or maintain coverage of us, changes in financial estimates by any securities analysts who follow our company, or our failure to meet the estimates or the expectations of investors;  \u2022any major change in our board of directors, management, or key personnel;  \u2022the economy as a whole and market conditions in our industry;  \u2022rumors and market speculation involving us or other companies in our industry;  \u2022announcements by us or our competitors of significant innovations, new products, services, features, integrations, or capabilities, acquisitions, strategic investments, partnerships, joint ventures, or capital commitments;  \u2022the legal and regulatory landscape and changes in the application of existing laws or adoption of new laws that impact our business, Hosts, and/or guests, including changes in short-term occupancy and tax laws;  \u2022legal and regulatory claims, litigation, or pre-litigation disputes and other proceedings;  \u2022the COVID-19 pandemic and its impact on the travel and accommodations industries;  \u2022other events or factors, including those resulting from war, incidents of terrorism, or responses to these events; and  \u2022sales or expected sales of our Class A common stock by us, our officers, directors, principal stockholders, and employees.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What are the risks associated with implementing new accounting systems, as mentioned in the document?",
+        "answer": "The risks associated with implementing new accounting systems include loss of information, potential disruption to normal operations, changes may be disruptive, take longer than desired, be more expensive than anticipated, be distracting to management, or fail, causing business and results of operations to suffer materially.",
+        "context": "... transformations involve risk inherent in the conversion to a new system, including loss of information and potential disruption to normal operations. These changes to our information technology systems may be disruptive, take longer than desired, be more expensive than anticipated, be distracting to management, or fail, causing our business and results of operations to suffer materially.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the total square footage of office facilities leased by the company as of December 31, 2022?",
+        "answer": "Approximately 1.6 million square feet",
+        "context": "Item 2. Properties We are headquartered in San Francisco, California, where we have lease commitments for approximately 924,000 square feet, including approximately 616,000 square feet offered for sublease, across multiple buildings. As of December 31, 2022, we leased office facilities totaling approximately 1.6 million square feet in multiple locations in the United States and internationally.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What are some of the areas related to legal proceedings, claims, and government investigations that the company may be involved in?",
+        "answer": "Regulatory matters, commercial matters, intellectual property, competition, tax, employment, pricing, discrimination, consumer rights, personal injury, and property rights",
+        "context": "We are currently involved in, and may in the future be involved in, legal proceedings, claims, and government investigations in the ordinary course of business. These include proceedings, claims, and investigations relating to, among other things, regulatory matters, commercial matters, intellectual property, competition, tax, employment, pricing, discrimination, consumer rights, personal injury, and property rights.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the status of the dividend policy for the company?",
+        "answer": "We intend to retain any future earnings and do not anticipate declaring or paying any cash dividends in the foreseeable future.",
+        "context": "Dividend Policy  We intend to retain any future earnings and do not anticipate declaring or paying any cash dividends in the foreseeable future. We may enter into credit agreements or other borrowing arrangements in the future that may restrict our ability to declare or pay cash dividends or make distributions. Any future determination to declare cash dividends will be made at the discretion of our board of directors, subject to applicable laws and will depend on a number of factors, including our financial condition, results of operations, capital requirements, contractual restrictions, general business conditions, and other factors our board of directors may deem relevant.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What key business metric represents the dollar value of bookings on the platform in a period, inclusive of Host earnings, service fees, cleaning fees, and taxes, net of cancellations and alterations?",
+        "answer": "Gross Booking Value",
+        "context": "Gross Booking Value  GBV represents the dollar value of bookings on our platform in a period and is inclusive of Host earnings, service fees, cleaning fees, and taxes, net of cancellations and alterations that occurred during that period.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What caused the increase in the Product Development expense in 2022 compared to 2021?",
+        "answer": "The Product Development expense increased primarily due to a $51.9 million increase in payroll-related expenses due to growth in headcount and increased compensation costs, and a $14.9 million increase in third-party service providers for contingent workers and consultant support for infrastructure projects, quality assurance services, and support of new product rollouts.",
+        "context": "Product development expense increased $77.4 million, or 5%, in 2022 compared to 2021, primarily due to a $51.9 million increase in payroll-related expenses due to growth in headcount and increased compensation costs, and a $14.9 million increase in third-party service providers for contingent workers and consultant support for infrastructure projects, quality assurance services, and support of new product rollouts, including AirCover.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What risks does Airbnb face in the market according to the document?",
+        "answer": "Foreign currency risk and investment risk",
+        "context": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk\nOur substantial operations around the world expose us to various market risks. These risks primarily include foreign currency risk and investment risk.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the net income for Airbnb, Inc. in 2022 according to the Consolidated Statements of Operations?",
+        "answer": "$1,893 million",
+        "context": "Airbnb, Inc. Consolidated Statements of Operations (in millions, except per share amounts)\nYear Ended December 31, + | 2020 | 2021 | 2022\nNet income (loss) | $ | (4,585) | | $ | (352) | $ | 1,893\nNet income (loss) per share attributable to Class A and Class B common stockholders:\nBasic | $ | (16.12) | | $ | (0.57) | $ | 2.97\nDiluted | $ | (16.12) | | $ | (0.57) | $ | 2.79\nWeighted-average shares used in computing net income (loss) per share attributable to Class A and Class B common stockholders:\nBasic | 284 | | 616 | | 637\nDiluted | 284 | | 616 | | 680\nThe accompanying notes are an integral part of these consolidated financial statements.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What are the factors that might indicate an impairment of non-marketable debt and equity investments according to the document?",
+        "answer": "Impairment indicators might include negative changes in industry and market conditions, financial performance, business prospects, and other relevant events and factors.",
+        "context": "The Company reviews its non-marketable debt and equity investments for impairment at the end of each reporting period or whenever events or circumstances indicate that the carrying value may not be fully recoverable. Impairment indicators might include negative changes in industry and market conditions, financial performance, business prospects, and other relevant events and factors.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What was the net unrealized gain (loss) on marketable equity investments for the year ended December 31, 2020?",
+        "answer": "$21.7 million",
+        "context": "Equity Investments Gains and Losses on Marketable Equity Investments Net unrealized gain (loss) on marketable equity investments was $21.7 million for the year ended December 31, 2020 and immaterial for the years ended December 31, 2021 and 2022.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What was the fair value of each stock option award estimated on the date of grant using the Black-Scholes option-pricing model for the year 2021?",
+        "answer": "$96.50",
+        "context": "During the years ended December 31, 2020, 2021, and 2022, the weighted-average fair value of stock options granted under the Plans was $15.42, $96.50, and $79.75 per share, respectively.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What restructuring charges did the Company record in 2022 due to a shift in work model?",
+        "answer": "The Company recorded restructuring charges of $89.1 million in 2022, which include $80.5 million relating to an impairment of both domestic and international operating lease ROU assets, and $8.4 million of related leasehold improvements.",
+        "context": "In 2022, the Company shifted to a remote work model, allowing its employees to work from anywhere in the country they currently work. The shift to a remote work model was in direct response to the change in how employees work due to the impact of COVID-19. As a result, for the year ended December 31, 2022, the Company recorded restructuring charges of $89.1 million, which include $80.5 million relating to an impairment of both domestic and international operating lease ROU assets, and $8.4 million of related leasehold improvements.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the conclusion regarding the effectiveness of disclosure controls and procedures as of December 31, 2022, based on the evaluation conducted by management in the document ABNB_2022_10k?",
+        "answer": "Our principal executive officer and principal financial officer concluded that the disclosure controls and procedures were effective as of December 31, 2022.",
+        "context": "Item 9A. Controls and Procedures Evaluation of Disclosure Controls and Procedures  Our management, with the participation of our principal executive officer and principal financial officer, conducted an evaluation of the effectiveness of the design and operation of our disclosure controls and procedures...concluded that our disclosure controls and procedures were effective as of December 31, 2022, the end of the period covered by this Annual Report on Form 10-K.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "Where can the information required by Item 12 be found?",
+        "answer": "The information required by Item 12 can be found in the 2023 Proxy Statement.",
+        "context": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters The information required by this Item is incorporated by reference to the 2023 Proxy Statement.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the rationale provided for omitting all financial statement schedules in the Annual Report on Form 10-K?",
+        "answer": "All financial statement schedules have been omitted because they are not applicable, not material or the required information is shown in Part II, Item 8 of this Annual Report on Form 10-K.",
+        "context": "(2) Financial Statement Schedules  All financial statement schedules have been omitted because they are not applicable, not material or the required information is shown in Part II, Item 8 of this Annual Report on Form 10-K.",
+        "document_name": "ABNB_2022_10k"
+    },
+    {
+        "question": "What is the exhibit number for the Second Amendment to Lease Agreement with BCP-CG 650 PROPERTY LLC?",
+        "answer": "10.3",
+        "context": "10.3 | Second Amendment to Lease Agreement by and among the Registrant and BCP-CG 650 PROPERTY LLC, effective September 27, 2022 | 10-Q | 001-39778 | 11/03/2022 | 10.4",
+        "document_name": "ABNB_2022_10k"
+    }
+]

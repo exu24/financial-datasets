@@ -1,3 +1,4 @@
+import logging
 import re
 import time
 from typing import List
@@ -11,10 +12,13 @@ from tqdm import tqdm
 from financial_datasets.dataset import DatasetItem, Dataset
 from financial_datasets.filings import filter_filings
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 system_prompt = """
 You are an expert at understanding and analyzing financial documents. 
 Your role is to generate question and ground truth answer pairs based on the provided financial text. 
-The types of texts you will be working with include 10-Ks, 10-Qs, earnings call transcripts, and other financial documents.
+The types of texts you will be working with include 10-Ks, 10-Qs, earnings call transcripts, research reports, and  other financial documents.
 
 When generating questions and answers, adhere to the following guidelines:
 1. Your ground truth answers must be directly derived from the content within the provided text. Do not make up, hallucinate, or generate answers that are not explicitly supported by the given text.
@@ -26,7 +30,7 @@ When generating questions and answers, adhere to the following guidelines:
    Answer: [Ground truth answer]
    Context: [Relevant paragraph from the text that supports the answer]
 
-Remember, your primary objective is to create accurate, grounded, and contextually relevant question-answer pairs while strictly avoiding any fabrication or speculation.
+Remember, your primary objective is to create accurate, grounded, and contextually relevant question-answer pairs while strictly avoiding any fabrication or speculation. Try to include the name of the document in your creation of the question-answer pairs.
 """
 
 default_sec_identity = "gary gary@financialdatasets.org"
@@ -36,16 +40,20 @@ class DatasetGenerator:
     def __init__(self, model: str, api_key: str):
         # Ensure model begins with gpt-
         if not model.startswith('gpt-'):
+            logging.error(f'Model {model} is not supported yet.')
             raise NotImplementedError(f'Model {model} is not supported yet.')
 
         if not api_key:
+            logging.error("API key is required.")
             raise ValueError("API key is required.")
 
         self._model = model
         self._client = patch(OpenAI(api_key=api_key))
+        logging.info(f"DatasetGenerator initialized with model {model}.")
 
     def generate_from_texts(
         self,
+        document_name,
         texts: List[str],
         max_questions=10,
     ) -> Dataset:
@@ -62,6 +70,7 @@ class DatasetGenerator:
         remaining_questions = max_questions % num_texts
 
         progress_bar = tqdm(total=max_questions, desc="Generating questions", colour='green')
+        logging.info("Starting question generation process.")
 
         for index, text in enumerate(texts):
             try:
@@ -70,13 +79,16 @@ class DatasetGenerator:
                 if index < remaining_questions:
                     current_max_questions += 1
 
+                chat_prompt = f"Generate {current_max_questions} questions using the following block of text from the document \"{document_name}\": {text}"
+                logging.info(f"Sending prompt to model: {chat_prompt}")
+
                 # Generate questions
                 response = self._client.chat.completions.create(
                     model=self._model,
                     response_model=Dataset,
                     messages=[
                         {"role": "system", "content": system_prompt},
-                        {"role": "user", "content": f"Generate {current_max_questions} questions for the following block of text: {text}"}
+                        {"role": "user", "content": chat_prompt}
                     ],
                 )
 
@@ -91,7 +103,7 @@ class DatasetGenerator:
                     break
                     
             except Exception as e:
-                print(f"Failed to generate questions for batch {index + 1}: {e}")
+                logging.error(f"Failed to generate questions for batch {index + 1}: {e}")
                 continue
 
             # Sleep for 1 second to avoid overloading the LLM
@@ -99,6 +111,7 @@ class DatasetGenerator:
 
         # Ensure the progress bar is closed
         progress_bar.close()
+        logging.info("Question generation process completed.")
 
         return Dataset(
             items=items,
@@ -123,20 +136,26 @@ class DatasetGenerator:
 
         # Tell the SEC who is making the request
         set_identity(sec_identity)
+        logging.info(f"SEC identity set to {sec_identity} for ticker {ticker}, year {year}.")
 
         if not ticker:
+            logging.error("Ticker symbol is required.")
             raise ValueError("Ticker symbol is required.")
 
         if not year:
+            logging.error("Year is required.")
             raise ValueError("Year is required.")
 
         # Create a Company object
         company = Company(ticker)
+        logging.info(f"Company object created for ticker {ticker}.")
 
         # Retrieve the SEC filing
         filings = company.get_filings(form="10-K")
 
         filing = filter_filings(filings, "10-K", year).obj()
+        logging.info(f"SEC filing for year {year} retrieved.")
+
         items = [filing[item] for item in filing.items if len(filing[item]) > 200]  # Ignore short items like "Item 6. Reserved"
 
         # Remove any newline characters
@@ -159,5 +178,8 @@ class DatasetGenerator:
             chunks = token_splitter.split_text(item)
             texts.extend(chunks)
 
+        logging.info("Texts prepared for question generation from SEC filing.")
+
         # Generate questions from the extracted text
-        return self.generate_from_texts(texts=texts, max_questions=max_questions)
+        return self.generate_from_texts(document_name=f"{ticker}_{year}_10k", texts=texts, max_questions=max_questions)
+
